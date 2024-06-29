@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+.rborder{
+  border: solid 2px red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.yborder{
+  border: solid 2px yellow;
+}
+.gborder{
+  border: solid 2px green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profileimg{
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+ object-fit: cover;
+ margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.invalidField{
+  border-color: 2px solid red;
+  background-color: aliceblue;
+  color: red;
 }
